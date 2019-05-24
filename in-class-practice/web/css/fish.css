@@ -1,0 +1,23 @@
+li img {
+    width: 50px;
+    height: 50px;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    text-align: center;
+}
+
+#main-image {
+    width: 250px;
+    height: 250px;
+}
+
+body {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+h2 {
+    background: url(../images/plus.png) no-repeat left center;
+    padding-left: 20px;
+    background-size: 15px;
+}
+
+h2.minus {
+    background: url(../images/minus.png) no-repeat left center;
+    background-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+div {
+    display: none;
+}

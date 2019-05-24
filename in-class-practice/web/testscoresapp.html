@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Score App</title>
+    <script>
+        var entry;
+        var average;
+        var total = 0;
+        var scores = [];
+
+        do {
+            entry = parseInt(prompt("Enter a test score or type 999 to exit.", "999"));
+
+            if (entry >= 0 && entry <= 100) {
+                scores.push(entry);
+                total += entry;
+            } else if (entry != 999) {
+                alert("Score must be a number between 0 and 100 or type 999 to exit.")
+            }
+        } while(entry != "999")
+    </script>
+</head>
+<body>
+    <script>
+        document.write("<h1>Max's version of the test score application</h1>");100
+        document.write("<br />")
+
+        if (scores.length != 0) {
+
+            for(var i = 0; i < scores.length; i++) {
+                document.write("Score" + (i+1) + ": " + scores[i] + "<br />");
+            }
+
+            average = (total / scores.length).toFixed(1);
+            document.write("<br />Average Score: " + average);
+        } else {
+            document.write("No values entered.");
+        }
+    </script>
+</body>
+</html>

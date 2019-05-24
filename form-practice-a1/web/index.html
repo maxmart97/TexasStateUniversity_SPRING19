@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 1</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet"/>
+    <script src="js/main.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="form-and-paragraph">
+        <form id="form" onsubmit="return false">
+            <label for="fn">First Name:</label>
+            <input type="text" id="fn" name="fn" class="textboxes" maxlength="75"/>
+            <label for="ln">Last Name:</label>
+            <input type="text" id="ln" name="ln" class="textboxes" maxlength="75"/>
+            <label for="dob">Date of birth:</label>
+            <input type="text" id="dob" name="dob" class="textboxes"/>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" class="textboxes" maxlength="200">
+            <label for="pw">Password:</label>
+            <input type="password" id="pw" name="pw" class="textboxes" maxlength="30"/>
+            <label for="retype-pw">Retype Password:</label>
+            <input type="password" id="retype-pw" name="retype-pw" class="textboxes" maxlength="30"/>
+            <br/>
+            <input id="btn-submit" type="submit" value="Submit" class="buttons"/>
+            <input id="btn-clear" type="button" value="Clear" class="buttons"/>
+        </form>
+        <p id="results"></p>
+    </div>
+</body>
+</html>

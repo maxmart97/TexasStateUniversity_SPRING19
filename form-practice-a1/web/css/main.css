@@ -1,0 +1,23 @@
+form {
+    border: 3px solid blue;
+    width: 650px;
+    height: auto;
+    background-color: yellow;
+}
+label {
+    width: 175px;
+    display: inline-block;
+}
+.textboxes {
+    width: 450px;
+}
+#results {
+    width: 650px;
+    height: 1em;
+}
+.form-and-paragraph {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

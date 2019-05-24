@@ -1,0 +1,9 @@
+#results:hover {
+    cursor: pointer;
+}
+
+li.hot {
+    width: 150px;
+    color: rgb(0, 0, 255);
+    background-color: yellow;
+}
