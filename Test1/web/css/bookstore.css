@@ -1,0 +1,50 @@
+* {
+    font-family: "Times New Roman";
+}
+
+h1, div {
+    border: 2px solid black;
+}
+
+div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 25px 25px 25px 25px;
+}
+
+#addBookTitle {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 250px;
+    height: auto;
+}
+
+.txtbox {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+}
+
+.button {
+    display: inline-block;
+}
+
+#main {
+    text-align: center;
+}
+
+#viewInv {
+    position: fixed;
+    right: 40%;
+    left: 46%;
+}
+
+#invCount {
+    text-align: center;
+}
